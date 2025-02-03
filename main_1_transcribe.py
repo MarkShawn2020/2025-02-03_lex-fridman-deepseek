@@ -7,7 +7,7 @@
 import assemblyai as aai
 
 # Replace with your API key
-aai.settings.api_key = "f8349c7f68f5476e9faaabed83d6ed45"
+aai.settings.api_key = os.environ["ASSEMBLYAI_API_KEY"]
 
 # URL of the file to transcribe
 FILE_URL = "DeepSeek, China, OpenAI, NVIDIA, xAI, TSMC, Stargate, and AI Megaclusters ｜ Lex Fridman Podcast #459 [_1f-o0nqpEI].mp3"
