@@ -2,5 +2,5 @@
 venv
 *.mp3
 *.wav
-*.webcam
+*.webm
 *.mp4*
